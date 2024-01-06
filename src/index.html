@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontus Digital Garden</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- HTMX -->
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <header class="text-center p-6 bg-purple-500 text-white">
+        <h1 class="text-3xl font-bold">Welcome to My Digital Garden</h1>
+        <p>Explore, interact, and watch it grow!</p>
+    </header>
+
+    <main class="container mx-auto p-6">
+        <section>
+            <h2 class="text-2xl font-semibold mb-4">About This Project</h2>
+            <p>This is a starting point for my personal digital garden. Here, I can express myself through writing and design.</p>
+        </section>
+
+        <section class="mt-6">
+            <h2 class="text-2xl font-semibold mb-4">Interactive Area</h2>
+            <button hx-get="example.html" hx-trigger="click" hx-target="#content" class="px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-400">
+                Click to Load Example content
+            </button>
+            <div id="content" class="mt-4"></div>
+        </section>
+    </main>
+
+    <footer class="text-center p-6 bg-gray-800 text-white">
+        <p>&copy; 2024 Pontus Eriksson. All rights reserved. Lefts also reserved.</p>
+    </footer>
+
+</body>
+</html>

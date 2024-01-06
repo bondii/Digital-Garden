@@ -1,0 +1,26 @@
+{
+  "name": "digital-garden",
+  "version": "0.0.1",
+  "description": "Where my inner life can flourish",
+  "main": "index.html",
+  "scripts": {
+    "server": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bondii/Digital-Garden.git"
+  },
+  "keywords": [
+    "garden"
+  ],
+  "author": "Pontus Eriksson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bondii/Digital-Garden/issues"
+  },
+  "homepage": "https://github.com/bondii/Digital-Garden#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
